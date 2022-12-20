@@ -1,0 +1,24 @@
+Xây dựng chương trình quản lý học viên trong các lớp học của 1 trường cấp 3.
+Chương trình bao gồm các thành phần sau:
+- Lớp Classroom: id, name, schoolName
+- Lớp ClassroomManager: lưu dữ liệu Classroom và các phương thức thao tác
+	+ Thêm 1 lớp học
+	+ Xóa 1 lớp học theo id
+	+ Hiển thị danh sách lớp học
+	+ Hiển thị thông tin lớp học theo id
+	+ Sửa thông tin lớp học theo id
+- Lớp Student: id, name, age, gender, address, Classroom
+- Lớp StudentManager: lưu dữ liệu Student và các phương thức thao tác
+	+ Thêm 1 học viên
+	+ Xóa 1 học viên theo id
+	+ Hiển thị danh sách học viên
+	+ Hiển thị danh sách học viên theo id
+	+ Hiển thị danh sách học theo lớp học
+	+ Sửa thông tin học viên theo id
+	+ Tìm kiếm học viên theo tên gần đúng
+- Lớp Main: tạo menu hiển thị để chạy chương trình
+
+Yêu cầu:
+	- Thiết kế UML cho 5 lớp
+	- Thiết kế và code các phương thức để hoàn thiện chương trình theo mô tả trên
+	- Viết code thực thi chương trình. Chú ý CleanCode và CodingConsvention
